@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+	<!-- nombre de la aplicacion -->
     <string name="app_name">git Hola Mundo</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="menu_settings">Settings</string>
+    <string name="app_name_saludo">Bienvenido a Hola Mundo</string>
+    <!-- nombre del menu (que genera por defecto pero no hace nada) -->
+    <string name="menu_settings">Menú sin configurar</string>
+    
+    <!-- etiquetas traducibles activity_main.xml -->
+    <string name="lblUsuario">Usuario :</string>
+    <string name="lblUsuarioHint">Introduce un usuario</string>
+    <string name="lblPassword">Password :</string>
+    <string name="lblSubmit">Aceptar</string>
+    
+    <!-- etiquetas traducibles activity_saludo.xml -->
+    <string name="hello_world">Hola</string>
 
 </resources>
