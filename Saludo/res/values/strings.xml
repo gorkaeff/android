@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Etiquetas aplicacion -->
+    <string name="app_name">Saludo</string>
+    <string name="app_saludo">Inicio</string>
+   
+    <!-- Pantalla de inicio -->
+    <string name="hint_nombre">Introduce tu nombre</string>
+    <string name="lbl_btn_aceptar">Aceptar</string>
+    
+    <!-- Pantalla de saludo -->
+    <string name="lbl_saludo">Hola</string>
+    <string name="lbl_digitalClock">DigitalClock</string>
+    <string name="lbl_fumas">¿Fumas?</string>
+</resources>

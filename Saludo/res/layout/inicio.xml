@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_android"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Inicio" >
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_nombre"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <CheckBox
+        android:id="@+id/chkFumar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_fumas" />
+    
+    <TextView 
+        android:id="@+id/textEstudio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Estudias?">
+    </TextView>"
+    
+    <RadioGroup 
+        android:id="@+id/radioEstudio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton 
+            android:id="@+id/rdBotonSi"
+            android:text="Si"
+            android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"/>
+        <RadioButton 
+            android:id="@+id/rdBotonNo"
+            android:text="No"
+            android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"/>
+       	<RadioButton 
+            android:id="@+id/rdBotonRaraVez"
+            android:text="Rara vez"
+            android:layout_width="wrap_content"
+       		android:layout_height="wrap_content"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/txtJuerga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Qué dia sales de marcha?" />
+
+    <Spinner
+        android:id="@+id/spinnerJuerga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtJugadorPreferido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Qué jugador prefieres?" />
+
+    <ListView
+        android:id="@+id/listViewJugadorPreferido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+    <ImageButton
+        android:id="@+id/btnAceptar"
+        android:layout_width="wrap_content"
+        android:src="@drawable/ic_launcher"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/lbl_btn_aceptar" />
+
+</LinearLayout>

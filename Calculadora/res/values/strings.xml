@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ejemplo Botones</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="lbl_numero1">Número 1:</string>
+    <string name="lbl_numero2">Número 2:</string>
+    <string name="hint_numero">Introducir número</string>
+    <string name="btn_realizar">Realizar</string>
+    <string name="lbl_resultado">Resultado</string>
+
+</resources>
