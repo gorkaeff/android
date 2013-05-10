@@ -13,7 +13,7 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-public class MainActivity extends Activity {
+public class Main extends Activity {
 
     boolean _n1_empty = true;
     boolean _n2_empty = true;
