@@ -41,15 +41,12 @@ public class Main extends Activity {
 	// final Spinner _opciones = (Spinner) findViewById(R.id._select_op);
 
 	_n1.addTextChangedListener(new TextWatcher() {
-	    @Override
 	    public void onTextChanged(CharSequence s, int start, int before, int count) {
 	    }
 
-	    @Override
 	    public void beforeTextChanged(CharSequence s, int start, int count, int after) {
 	    }
 
-	    @Override
 	    public void afterTextChanged(Editable s) {
 		if (_n1.getText().length() > 0) {
 		    _n1_empty = false;
@@ -66,11 +63,9 @@ public class Main extends Activity {
 	});
 
 	_n2.addTextChangedListener(new TextWatcher() {
-	    @Override
 	    public void onTextChanged(CharSequence s, int start, int before, int count) {
 	    }
 
-	    @Override
 	    public void beforeTextChanged(CharSequence s, int start, int count, int after) {
 	    }
 
@@ -91,10 +86,9 @@ public class Main extends Activity {
 
 	_ejecucion.setOnClickListener(new OnClickListener() {
 
-	    @Override
 	    public void onClick(View v) {
-		Float _a = new Float(_n1.getText().toString());
-		Float _b = new Float(_n2.getText().toString());
+		Float _a = Float.valueOf(_n1.getText().toString());
+		Float _b = Float.valueOf(_n2.getText().toString());
 
 		if (Opciones.getSelectedItem().equals("Sumar")) {
 		    _res.setText(String.valueOf(suma(_a, _b)));
