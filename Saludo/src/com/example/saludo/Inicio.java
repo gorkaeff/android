@@ -84,7 +84,6 @@ public class Inicio extends Activity {
 
 	_checkboxFumas.setOnCheckedChangeListener(new CheckBox.OnCheckedChangeListener() {
 
-	    @Override
 	    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
 		if (isChecked) {
 		    Toast.makeText(getApplicationContext(), "Fumas", Toast.LENGTH_SHORT).show();
@@ -98,7 +97,6 @@ public class Inicio extends Activity {
 
 	_radioGroup.setOnCheckedChangeListener(new OnCheckedChangeListener() {
 
-	    @Override
 	    public void onCheckedChanged(RadioGroup group, int checkedId) {
 		// Toast.makeText(getApplicationContext(), checkedId, Toast.LENGTH_SHORT).show();
 		switch (checkedId) {
@@ -122,7 +120,6 @@ public class Inicio extends Activity {
 
 	_listViewJugador.setOnItemClickListener(new OnItemClickListener() {
 
-	    @Override
 	    public void onItemClick(AdapterView<?> arg0, View arg1, int arg2, long arg3) {
 
 		Toast.makeText(getApplicationContext(), _listViewJugador.getAdapter().getItem(arg2).toString(), Toast.LENGTH_SHORT).show();
