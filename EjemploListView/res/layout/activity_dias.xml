@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ListViewActivity" >
+
+    <TextView
+        android:id="@+id/txtDiaSemana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dia de la semana" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupTurno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radioPronto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/turnoManana" />
+
+        <RadioButton
+            android:id="@+id/radioTarde"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/turnoTarde" />
+
+        <RadioButton
+            android:id="@+id/radioNoche"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/turnoNoche" />
+    </RadioGroup>
+
+</LinearLayout>
