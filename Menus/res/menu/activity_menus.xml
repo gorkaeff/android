@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/menu_camara"
+        android:title="@string/menu_camara"
+        android:icon="@drawable/camera">
+        
+		<menu>
+		    <item android:id="@+id/subMenu_camara_1"
+		        android:title="Horizontal"/>
+		    <item android:id="@+id/subMenu_camara_2"
+		        android:title="Vertical"/>
+		</menu>
+	</item>
+	
+    <item
+        android:id="@+id/menu_galeria"
+        android:title="@string/menu_galeria"
+        android:icon="@drawable/gallery">
+        
+        <menu>
+		    <item android:id="@+id/subMenu_galeria_1"
+		        android:title="Tarjeta Memoria"/>
+		    <item android:id="@+id/subMenu_galeria_2"
+		        android:title="Whatsapp"/>
+		</menu>
+    </item>
+    
+    <item
+        android:id="@+id/menu_add"
+        android:title="@string/menu_add"
+        android:icon="@drawable/plus">
+        
+        <menu>
+		    <item android:id="@+id/subMenu_add_1"
+		        android:title="Añadir una foto"/>
+		    <item android:id="@+id/subMenu_add_2"
+		        android:title="Añadir varias fotos"/>
+		</menu>
+    </item>
+</menu>

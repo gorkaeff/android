@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/menu_camara"
+        android:title="@string/menu_camara"
+        android:icon="@drawable/camera">
+	</item>
+	
+    <item
+        android:id="@+id/menu_galeria"
+        android:title="@string/menu_galeria"
+        android:icon="@drawable/gallery">
+    </item>
+    
+    <item
+        android:id="@+id/menu_add"
+        android:title="@string/menu_add"
+        android:icon="@drawable/plus">
+        
+        <menu>
+            <group android:id="@+id/grupo1"
+                android:checkableBehavior="single">
+            	<item android:id="@+id/submenu1"
+            	    android:title="Opcion 3.1" />
+            	<item android:id="@+id/submenu2"
+            	    android:title="Opcion 3.2" />
+        	</group>
+        </menu>
+        
+    </item>
+</menu>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Menus</string>
+    <string name="hello_world">Ejemplo de Menús</string>
+    <string name="menu_camara">Cámara</string>
+    <string name="menu_galeria">Galería</string>
+    <string name="menu_add">Añadir</string>
+</resources>
