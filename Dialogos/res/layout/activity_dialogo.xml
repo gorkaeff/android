@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DialogoActivity" >
+
+    <Button
+        android:id="@+id/buttonAlerta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/txtBtnAlerta" />
+
+    <Button
+        android:id="@+id/buttonConfirmacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttonAlerta"
+        android:text="@string/txtBtnConfirmacion" />
+
+    <Button
+        android:id="@+id/buttonSeleccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttonConfirmacion"
+        android:text="@string/txtBtnSeleccion" />
+
+    <Button
+        android:id="@+id/buttonNotificacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttonSeleccion"
+        android:text="@string/txtBtnNotificacion" />
+
+</RelativeLayout>
