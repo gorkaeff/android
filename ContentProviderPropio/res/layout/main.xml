@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="Nombre" android:id="@+id/textView3"
+		android:textAppearance="?android:attr/textAppearanceLarge"></TextView>
+	<EditText android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:inputType="textPersonName"
+		android:id="@+id/_ins_nombre">
+		<requestFocus></requestFocus>
+	</EditText>
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="DNI" android:id="@+id/textView4"
+		android:textAppearance="?android:attr/textAppearanceLarge"></TextView>
+	<EditText android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:inputType="number"
+		android:id="@+id/_ins_dni"></EditText>
+	<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Resultado:" android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/_res_ins"></TextView>
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/_insertar"
+		android:text="Insertar"></Button>
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="DNI" android:id="@+id/textView5"
+		android:textAppearance="?android:attr/textAppearanceLarge"></TextView>
+	<LinearLayout android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:id="@+id/linearLayout2">
+		<EditText android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:inputType="textPersonName" android:id="@+id/_busc_dni"></EditText>
+		<Button android:layout_width="wrap_content" android:text="Buscar"
+			 android:id="@+id/_buscar"
+			android:layout_height="match_parent"></Button>
+	</LinearLayout>
+	<LinearLayout android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:id="@+id/linearLayout3">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Nombre:"
+			android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/_res_nom"></TextView>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="" android:id="@+id/textView2"
+			android:textAppearance="?android:attr/textAppearanceLarge"></TextView>
+	</LinearLayout>
+	<TextView android:text="DNI" android:id="@+id/textView1" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content"></TextView>
+	<LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout1" android:layout_height="wrap_content">
+		<EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:inputType="number" android:id="@+id/_dni_del"></EditText>
+		<Button android:text="Borrar" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/_borrar"></Button>
+	</LinearLayout>
+	<TextView android:text="Resultado:" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:id="@+id/_res_del"></TextView>
+</LinearLayout>
