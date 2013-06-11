@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Localizacion</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="a1_posicion">Posición:</string>
+    <string name="a1_latitud">Latitud</string>
+    <string name="a1_longitud">Longitud</string>
+    <string name="a1_precision">Precisión</string>
+    <string name="a1_providerstatus">Provider Status:</string>
+    <string name="a1_estado">Estado =></string>
+    
+    <string name="a1_btnComenzar">Comenzar</string>
+    <string name="a1_btnFinalizar">Finalizar</string>
+
+</resources>
