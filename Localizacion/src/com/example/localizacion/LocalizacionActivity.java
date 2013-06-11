@@ -88,7 +88,7 @@ public class LocalizacionActivity extends Activity {
 	    }
 	};
 
-	locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 30000, 0, locationListener);
+	locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 30000, 0, locationListener);
 
     }
 
